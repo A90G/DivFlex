@@ -1,3 +1,136 @@
 body {
   font-family: sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+}
+.espacio {
+  display: block;
+  margin: 1%;
+}
+.encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+  margin-bottom: auto;
+  width: 100%;
+  background-color: grey;
+  order: 1;
+  justify-content: flex-start;
+}
+.menu1 {
+  margin: 3%;
+  background-color: green;
+  order: 2;
+  justify-content: space-between;
+}
+.logo {
+  margin: 3%;
+  background-color: blue;
+  order: 3;
+  justify-content: space-between;
+}
+.menu2 {
+  margin: 3%;
+  background-color: rgb(75, 4, 4);
+  order: 4;
+  justify-content: space-between;
+}
+.bloqueCentralSup {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 100%;
+  margin-top: 8%;
+  margin-bottom: auto;
+}
+.izq {
+  width: 33%;
+  background-color: rgb(61, 59, 59);
+  order: 1;
+  justify-content: space-between;
+}
+.centro {
+  width: 33%;
+  background-color: rgb(32, 178, 129);
+  order: 2;
+  justify-content: space-between;
+}
+.der {
+  width: 33%;
+  background-color: yellow;
+  order: 3;
+  justify-content: space-between;
+}
+.bloqueCentralInf {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 100%;
+  margin-top: 13%;
+  margin-bottom: auto;
+}
+.izq2 {
+  width: 50%;
+  background-color: rgb(2, 54, 26);
+  order: 1;
+  justify-content: flex-start;
+}
+.der2 {
+  width: 50%;
+  background-color: rgb(212, 105, 16);
+  order: 2;
+  justify-content: flex-start;
+}
+.pie {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 17%;
+  margin-bottom: auto;
+  background-color: rgb(9, 193, 218);
+  order: 1;
+  justify-content: flex-start;
+}
+.elemento {
+  margin: 3%;
+  background-color: rgb(18, 91, 201);
+  order: 2;
+  justify-content: flex-end;
+}
+
+/* div.bloque1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  border: 3px solid;
+}
+div.bloque2 {
+  width: 50%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid red;
+  display: block;
+}
+div.bloque3 {
+  width: 700px;
+  border: 3px solid red;
+  margin: auto;
+  display: block;
+--------------------------------------
+
+}*/
